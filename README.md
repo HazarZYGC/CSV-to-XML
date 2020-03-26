@@ -23,6 +23,4 @@ CVS2XML will produce an XML file looks like the following: <br>
     <email>jbutt@gmail.com</email> <br>
     <phone_number>504-845-1427</phone_number> <br>
     <address/><br>
-  </row> <br>
-  ... <br>
-</contacts> <br>
+
