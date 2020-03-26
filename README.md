@@ -15,5 +15,5 @@ CSV2XML <inputfile> <outputfile> [-separator <P1>][-opsys <P2>][-h] <br>
 ● The sample command line usage converting from CSV to XML as follows: <br> 
 ./CVS2XML Contacts.csv Contacts.xml -separator 1 -opsys 1 <br> 
 <br>
-CVS2XML will produce an XML file in basic form. Please checkt example in the repository.
+CVS2XML will produce an XML file in basic form. Please check the example in the repository.
 
