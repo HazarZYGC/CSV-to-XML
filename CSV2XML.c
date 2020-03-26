@@ -22,11 +22,15 @@ int CSV2XML(char* source, char* destination, char* delimeter, char* endLine);
 //MAIN
 int main(int argc, char *argv[])
 {
-
+    if(argc == 2 && strcmp(argv[1],"-h")==0)
+    {
+        printf("enter arguments eg.\"./CSV2XML <inputfile> <outputfile> [-separator <P1>][-opsys <P2>]!!\"\n");
+        return 0;
+    }
     // Checking if number of argument 
     if (argc < 6 || argc > 7)  
     { 
-        printf("enter arguments only eg.\"./CSV2XML.out <inputfile> <outputfile> [-separator <P1>][-opsys <P2>]!!\""); 
+        printf("You gave missing argument. You can type ./CSV2XML -h to more information.\n"); 
         return 0; 
     }
 
